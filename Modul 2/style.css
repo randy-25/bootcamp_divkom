@@ -1,0 +1,85 @@
+ @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+*{
+    overflow-x: hidden;
+    list-style-position: inside;
+}
+
+body{
+    margin: 0;
+    font-family: 'Poppins';
+    background-color: #C7C8CC;
+}
+#navbar{    
+    font-size: medium;
+    font-weight: bold;
+    background-color: #B4B4B8;
+    position: sticky;
+    top: 0;
+    position: -webkit-sticky;
+}
+
+#navbar ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    list-style-type: none;
+
+}
+#navbar-left{
+    margin-left: -1rem;
+}
+#navbar-right{
+    margin-right: 1rem;
+}
+#navbar-right li{
+    display: inline-block;
+}
+#navbar-right li:first-child{
+    padding-right: 10px;
+}
+#navbar ul div a{
+    text-decoration: none;
+}
+#navbar ul div a li{
+    color: black;
+}
+#home #intro{
+    display: block;
+    text-align: justify;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+#home #intro span{
+    display: inline;
+    font-weight: bold;
+    color: rgb(10, 101, 101);
+}
+#about-me{
+    display: block;
+    margin : auto 1rem auto 1rem;
+    list-style-type: disc;
+}
+#footer{
+    background-color: #B4B4B8;
+    display: block;
+    width: 100vw;
+    height: auto;
+    margin-left: 0rem;
+    overflow-x: hidden;
+}
+#footer h3{
+    padding-left: 2rem;
+}
+#footer ul{
+    list-style-type: none;
+} 
+#footer ul li a{
+    color: black;
+    font-size: medium;
+}
+@media only screen and (min-width:600px) and (min-height:500px){
+    #footer{
+        position: fixed;
+        bottom: 0;
+    }
+}
