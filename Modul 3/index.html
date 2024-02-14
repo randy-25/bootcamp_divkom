@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" />
+    <title>Modul 3</title>
+</head>
+
+<body>
+    <div id="intro-part">
+        <h1>Test Your Luck!!</h1>
+        <h2>Click the button to get random number from 1 - 6</h2>
+        <h3>Winning condition : </h3>
+        <h4>If you get higher number, you win</h4>
+
+    </div>
+
+    <div id="button-div">
+        <button type="button" id="start-button">Start</button>
+    </div>
+    
+
+    <div id="form-name">
+        <label for="fname">Name :</label>
+        <input type="text" id="fname" name="fname" placeholder="Enter Your Name" /> <br />
+        <button id="submit-button">Submit</button>
+    </div>
+
+    <div id="rolling-part">
+            <button id="roll" onclick="rollingDie()">Roll Your Die</button>
+            <div id="player-roll"></div>
+            <div id="bot-roll"></div>
+            <div id="result"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
